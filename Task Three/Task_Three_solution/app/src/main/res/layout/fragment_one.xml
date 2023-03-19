@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="NumberOne"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="NumberTwo"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/sum_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3E1717"
+            android:text="Sum and Mul Numbers" />
+
+        <TextView
+            android:id="@+id/finalresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TheResult" />
+    </LinearLayout>
+
+</FrameLayout>
